@@ -1,0 +1,39 @@
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: url(./wall.jpg  ) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: blueviolet; */
+}
+
+._Left {
+    float: left;
+}
+
+._right {
+    float: right;
+}
+
+p,
+span,
+input,
+td {
+    font-size: 24px;
+}
+
+button {
+    font-size: 18px;
+}
+
+#ot {
+    color: black;
+}

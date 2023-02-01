@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Тест</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="data.js"></script>
+    <style></style>
+</head>
+
+<body class="text-center">
+    <div style="text-align:center;">
+        <p id="name_test" style="font-weight:bold;top:20px;color:chocolate; background-color: white;"> "<span id="Tema"></span>".</p>
+        <div class="card">
+            <div class="card-body">
+
+                <div id="QuestionWindow1" style="display:block;">
+                    <p>Вопрос 1</p>
+                    <div class="alert alert-secondary" role="alert">
+                        <p>
+                            <span id="Question1"></span>
+                            <input class="form-control" type="text" id="z_1">
+                        </p>
+                    </div>
+                </div>
+
+                <div id="QuestionWindow2" style="display:none;">
+                    <p>Вопрос 2</p>
+                    <div class="alert alert-secondary" role="alert">
+                        <p>
+                            <span id="Question2"></span>
+                            <input class="form-control" type="number" id="z_2">
+                        </p>
+                    </div>
+                </div>
+
+                <div id="QuestionWindow3" style="display:none;">
+                    <p>Вопрос 3</p>
+                    <div class="alert alert-secondary" role="alert">
+                        <p><span id="Question3"></span></p>
+                        <p><select id="z_3"></select></p>
+                    </div>
+                </div>
+
+                <div id="QuestionWindow4" style="display:none;">
+                    <p>Вопрос 4</p>
+                    <div class="alert alert-secondary" role="alert">
+                        <p><span id="Question4"></span></p>
+                            <label class="_Left"><input type="radio" name="radio" value="1"><span id="radio1"></span></label>
+                            <label class="_right"><input type="radio" name="radio" value="2"><span id="radio2"></span></label><br>
+                            <label class="_Left"><input type="radio" name="radio" value="3"><span id="radio3"></span></label>
+                            <label class="_right"><input type="radio" name="radio" value="4" checked><span id="radio4"></span></label>
+                    </div>
+                </div>
+
+
+                <div id="QuestionWindow5" style="display:none;">
+                    <p>Вопрос 5</p>
+                    <div class="alert alert-secondary" role="alert">
+                        <p>
+                            <span id="Question5"></span>
+                        </p>
+                        <p class="_Left">
+                            <label><input type="checkbox" name="b" value="1"><span id="checkbox1"></span></label><br>
+                            <label class="_Left"><input type="checkbox" name="b" value="2"><span id="checkbox2"></span></label>
+                        </p>
+                        <p class="_right">
+                            <label><input type="checkbox" name="b" value="3"><span id="checkbox3"></span></label><br>
+                            <label><input type="checkbox" name="b" value="4"><span id="checkbox4"></span></label>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="QuestionWindow6" style="display:none;">
+                <p>Вопрос 6</p>
+                <div class="alert alert-secondary" role="alert">
+                    <p><span id="Question6"></span></p>
+                    <table id="first_table" style="margin: auto;">
+                        <tr>
+                            <td><span id="tr1_td1"></span></td>
+                            <td><span id="tr2_td1"></span></td>
+                            <td><span id="tr3_td1"></span></td>
+                        </tr>
+                        <tr style="text-align: center;">
+                            <td><span style="padding: 10px;" id="tr1_td2"></span></td>
+                            <td><span style="padding: 10px;" id="tr2_td2"></span></td>
+                            <td><span style="padding: 20px;" id="tr3_td2"></span></td>
+                        </tr>
+                    </table>
+                    <table id="second_table" style="margin: auto;">
+                        <tr>
+                            <td><input type="number" id="z_6" min="3" max="3"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <button id="next" class="btn btn-lg btn-primary btn-block"
+                style="margin-left:auto;margin-right:auto;width:250px;background-color:grey;" onclick="Next();">Следующий
+                вопрос</button>
+
+            <button id="check" class="btn btn-lg btn-primary btn-block"
+                style="margin-left:auto;margin-right:auto;display:none;width:250px;background-color:grey;"
+                onclick="Check();">Проверить</button>
+
+            <div id="Rezult"></div>
+        </div>
+    </div>
+</body>
+
+</html>
