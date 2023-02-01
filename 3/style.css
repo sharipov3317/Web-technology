@@ -1,0 +1,116 @@
+h1, h2, h3 {
+    margin: 5px;
+}
+
+.head {
+    border: 2px solid;
+    text-align: center;
+    width: 100%;
+    display: flex;        /*надо показать*/
+}
+
+.head-text {
+    width: 100%;
+}
+
+.head-Logo {
+    border: 2px solid;
+    background-color: gray;
+    float: left;           /*надо показать*/
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.head-Logo > p{
+    margin-top: 35px;
+}
+
+.buttoms{
+    border: 2px solid;
+    display: flex;        /*надо показать*/
+    margin-top: 5px;
+    width: 100%;
+}
+
+.buttoms > a {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    border: 1px solid;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+.content > .block {
+    border: 1px solid;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.copyright {
+    border: 2px solid;
+    margin-top: 5px;
+    padding: 0px 5px 5px 5px;
+}
+
+.letter{
+    text-align: right;
+}
+
+.content2 {
+    margin-top: 5px;
+    display: flex;           /*надо показать*/
+    flex-direction: row;     /*надо показать*/
+}
+
+.menu {
+    border: 1px solid;
+    width: 200px;
+}
+
+.menu p {
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+.list {
+    border: 1px solid;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid;
+    margin: 5px 10px;
+}
+
+.logo {
+    float: left;              /*надо показать*/
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+}
+
+.inset {
+    border: 1px solid;
+    float: right;              /*надо показать*/
+    width: 310px;
+    margin: 2px;
+}
+.icon {
+    float: left;              /*надо показать*/
+    border: 1px solid;
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    background-color: grey;
+}
