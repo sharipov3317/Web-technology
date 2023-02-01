@@ -1,0 +1,87 @@
+/* 1 Селектор тегов*/
+body{ 
+	text-align: justify;
+	background: url("https://kappa.cs.petrsu.ru/~chistyak/html/images/fon.jpg");
+}
+
+p{
+	color: darkcyan;
+}
+
+a{	
+	color: purple;
+	text-decoration:  none;
+}
+
+header{
+	color:  deeppink;
+	text-align: center;
+}
+
+caption{
+	font-weight: bold;
+}
+
+/* 2 Селектор классов*/
+.redHat{
+	font-weight: bold;
+}
+
+.contents{
+	width: 120px;
+	vertical-align: top;
+}
+
+.menu{
+	margin: auto;
+	text-align: center;
+}
+.lines{
+	width: 10px;
+	background-image: url("https://kappa.cs.petrsu.ru/~chistyak/html/images/fon-line.gif");
+}
+
+.dialog{
+	font-style: italic;
+}
+
+/* 3 Селектор потомков*/
+.menuStr td{
+	text-align: center;
+	border: 1px solid;
+}
+
+/* 4 Селектор идентификаторов*/
+#head{
+	color: deeppink;
+	font-weight: bold;
+}
+
+#first{
+	font-size: 30px;
+}
+
+#backNext{
+	text-align: right;
+}
+
+/* 5 Селектор дочерних элементов*/
+#tableHead > th{
+	background-color: pink;
+	border: 1px solid;
+}
+
+body > table{
+	width: 100%;
+    color: darkcyan;
+}
+
+/* 6 Селектор атрибута*/
+[alt]{
+	float: left;
+}
+
+/* 7 Селектор псевдоклассов*/
+a:hover{
+	color: red;
+}
